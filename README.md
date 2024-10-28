@@ -97,3 +97,7 @@ The raffle contract includes tests to verify its functionality:
 - **Manager Role**: Tests to ensure only the manager can initiate winner selection.
 - **Chainlink VRF Integration**: Tests to simulate Chainlink’s VRF, ensuring random winner selection functions correctly.
 
+Run the tests using:
+
+```shell
+forge test
